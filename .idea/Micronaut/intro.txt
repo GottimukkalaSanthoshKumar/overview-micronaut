@@ -1,0 +1,243 @@
+
+
+
+DOC
+TOC -> Table Of Content 
+
+What is this framework?
+Why it is actually better?
+How to build this framework? every framework building is different?
+
+Comparation between other frameworks?
+Why it is superior?
+Why it is not superior?
+Do one performance testing example on the load with an actual system ?
+Which one is performing better ?
+
+
+Create PPT's !
+
+
+
+
+
+
+Micronaut
+=========
+
+it is fast, lightweight, reactive & Modular Applications Java framework, Modern JVM-based Framework and mainly it was designed for microservices, cloud-native, and serverless computing applications.
+
+Reactive
+---------
+Reactive in Java refers to the asynchronous, non-blocking, event-driven programming paradigm that handles data streams efficiently. It is based on the Reactive Streams specification and enables high-performance, scalable applications. Key frameworks: Project Reactor, RxJava, Spring WebFlux.
+
+Modern JVM
+-----------
+A Modern JVM (Java Virtual Machine) is an advanced runtime environment that optimizes Java application performance using JIT (Just-In-Time) compilation, G1/ZGC garbage collectors, GraalVM, Project Loom (virtual threads), and enhanced memory management techniques. It supports ahead-of-time (AOT) compilation, native image generation, and improved concurrency to boost efficiency and scalability. 🚀
+
+
+
+Micronaut was developed in 2018 and its first stable release (1.0) was officially announced on October 23, 2018 by Object Computing,
+Inc. (OCI), the same company behind the Grails framework.
+
+Created by Object Computing and released in 2018.
+
+
+Supports Java, Kotlin, and Groovy
+
+Mainly this framework was introduced  
+
+1) To Solve Performance issues in Java microservices. 
+
+2) Reducing Memory Consumption for cloud-native applications.
+
+3) Improve Startup Speed in serverless and containerized environments like Docker and Kubernetes (K8s) etc.
+
+4) Provide Better Support for Reactive Programming with non-blocking I/O.
+
+
+
+we can also build Message-Driven, Command Line Applications, HTTP Servers and more whilst for Microservices like 
+
+=>Distributed Configuration
+
+=>Service Discovery etc.
+----------------------------------
+=>HTTP Routing
+
+=>Client-Side Load Balancing
+
+----------------------------------
+
+
+=> this framework aims to provide all the tools necessary to build JVM applications including:
+
+1) Dependency Injection and Inversion of Control (IoC)
+
+2) Aspect Oriented Programming (AOP)
+
+3) Sensible Defaults and Auto-Configuration.
+
+
+
+Micronaut framework versions along with their supported Java versions:
+-----------------------------------------------------------------------
+Micronaut 1.0 (2018) - Supports Java 8+
+Micronaut 2.0 (2020) - Supports Java 14+ 
+Micronaut 3.x (2021-2023) - Supports Java 17+, aligns with GraalVM 22.3.2 
+Micronaut 4.x (2023-Present) - Supports Java 17+, optimized for Jakarta EE 10
+
+
+
+Key Features of Micronaut
+=========================
+Feature	Benefit
+---------------
+Dependency Injection (DI)		Uses compile-time DI instead of runtime reflection.
+Cloud-Native Support			Works with AWS Lambda, Kubernetes, and GCP.
+Reactive Support			Supports Reactor, RxJava, and R2DBC.
+Built-in AOP				Provides aspects for logging, security, etc.
+Fast Startup				Ideal for microservices and serverless.
+
+
+
+
+
+
+Comparison 
+===========
+
+Performance & Startup Time
+---------------------------
+Q -> Best for fast startup and low memory usage, optimized for cloud & serverless.
+M -> Fast Performance than Spring Boot, with low memory consumption but slightly slower than Quarkus.
+SB-> Heavier than both Micronaut & Quarkus, with higher startup time and memory usage.
+
+Dependency Injection & Reflection 
+=> Reflection is a mechanism that allows a program to inspect and modify classes, methods, and fields at runtime without knowing their names at compile time.
+---------------------------------
+Q -> Uses compile-time DI, avoiding reflection for better performance.
+M -> Uses compile-time DI like Quarkus, reducing startup time and memory footprint.
+SB-> Uses runtime reflection and proxy-based DI, making it slower than Quarkus and Micronaut.
+
+Ecosystem & Maturity	
+-----------------------
+Q -> Newer but growing, integrates well with Kubernetes, GraalVM, and cloud-native applications.
+M -> Newer, designed for microservices and serverless, but ecosystem is still evolving.
+SB-> Most mature and widely used, with rich libraries, support, and documentation.
+     It has Biggest Community out of other frameworks like quarkus and micronaut and also Most Integrations.
+	it's support graalvm native from Spring Boot 3.	
+		
+
+Which type of applications we can Use ?
+=======================================
+
+Quarkus 	=> Cloud-native, Fast startup, and Low memory usage applications.
+
+Micronaut 	=> Fast Microservices with Low memory but with a simpler architecture.
+
+Spring Boot  	=> Enterprise Applications with a rich ecosystem and strong community support.
+
+
+
+
+
+
+Negative points
+================
+
+Slower Compilation Time(AOT) 
+Community is smaller 
+
+
+
+
+
+
+Why Use Micronaut?
+✅ Fast Startup – No runtime reflection, making it ideal for microservices.
+✅ Low Memory Usage – Uses compile-time dependency injection.
+✅ Reactive Programming Support – Works well with RxJava, Reactor, and R2DBC.
+✅ Seamless Cloud Integration – Supports AWS, GCP, Azure, Kubernetes.
+✅ Built-in AOP & Security – Provides declarative HTTP clients and JWT authentication.
+
+
+
+
+
+
+When to Use Micronaut?
+✔ When building high-performance microservices.
+✔ When deploying applications on AWS Lambda or Kubernetes.
+✔ When working with low-memory environments like IoT.
+✔ When needing fast startup and response times.
+
+
+
+
+
+
+
+
+
+
+What is Dropwizard?
+-------------------
+   Dropwizard is a Java framework used for building lightweight, high-performance RESTful web services.
+	It combines various Java libraries and tools into a single package, making it easy to develop and deploy microservices.
+
+
+
+
+
+
+
+
+
+
+
+
+Comparison
+-----------
+
+Spring
+======
+
+actually spring is estaminating the java build for grab some time very
+ well established framework.
+
+It's supportive Reactive Stack with the realese of version 5 reactive features called Spring WebFlux
+
+It has Biggest Community out of other frameworks like quarkus and micronaut and also Most Integrations
+
+you probobly find an integration every tool you using which is very ossam 
+
+additional it supports multi languages like java, groovy,Kotlin
+
+
+Negative points of spring 
+
+Heavy use of reflection 
+
+
+startup time and memory usage not very suitable for serverless cloud functions
+
+it's support graalvm native from Spring Boot 3.
+
+Quarkus
+=======
+
+ it is a cloud native framework supports building Reactive Stack
+
+
+
+
+
+
+
+
+
+
+
+
+
